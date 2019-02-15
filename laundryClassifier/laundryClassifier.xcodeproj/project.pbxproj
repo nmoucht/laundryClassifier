@@ -14,6 +14,7 @@
 		1A3F7BB52215318C00382A8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3F7BB32215318C00382A8B /* LaunchScreen.storyboard */; };
 		1A3F7BC02215318C00382A8B /* laundryClassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3F7BBF2215318C00382A8B /* laundryClassifierTests.swift */; };
 		1A3F7BCB2215318C00382A8B /* laundryClassifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3F7BCA2215318C00382A8B /* laundryClassifierUITests.swift */; };
+		1A8F9A952216863400D852AE /* getWebServerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F9A942216863400D852AE /* getWebServerInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1A3F7BC62215318C00382A8B /* laundryClassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = laundryClassifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3F7BCA2215318C00382A8B /* laundryClassifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laundryClassifierUITests.swift; sourceTree = "<group>"; };
 		1A3F7BCC2215318C00382A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A8F9A942216863400D852AE /* getWebServerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getWebServerInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				1A3F7BAA2215318A00382A8B /* AppDelegate.swift */,
+				1A8F9A942216863400D852AE /* getWebServerInfo.swift */,
 				1A3F7BAC2215318A00382A8B /* ViewController.swift */,
 				1A3F7BAE2215318A00382A8B /* Main.storyboard */,
 				1A3F7BB12215318C00382A8B /* Assets.xcassets */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A3F7BAD2215318A00382A8B /* ViewController.swift in Sources */,
+				1A8F9A952216863400D852AE /* getWebServerInfo.swift in Sources */,
 				1A3F7BAB2215318A00382A8B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
